@@ -1,0 +1,19 @@
+﻿<Window x:Class="Sessiya.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sessiya"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="Pac" d:ItemsSource="{d:SampleData ItemCount=5}" Height="NaN" Margin="0,0,0,227" Loaded="Vrach_Loaded"/>
+        <TextBox Name="txb_name" HorizontalAlignment="Left" Margin="36,237,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="120" GotFocus="txb_name_GotFocus"/>
+        <TextBox Name="txb_surname" HorizontalAlignment="Left" Margin="189,237,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="120" GotFocus="txb_surname_GotFocus"/>
+        <TextBox Name="txb_otch" HorizontalAlignment="Center" Margin="0,237,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="120" GotFocus="txb_otch_GotFocus"/>
+        <TextBox Name="txb_number" HorizontalAlignment="Left" Margin="654,237,0,0" TextWrapping="Wrap" Text="Номер" VerticalAlignment="Top" Width="120" GotFocus="txb_number_GotFocus"/>
+        <DatePicker Name="databith" HorizontalAlignment="Left" Margin="515,234,0,0" VerticalAlignment="Top"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="324,343,0,0" VerticalAlignment="Top" Height="53" Width="168" Click="Button_Click"/>
+
+    </Grid>
+</Window>

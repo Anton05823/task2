@@ -1,0 +1,18 @@
+﻿<Window x:Class="Sessiya.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sessiya"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="414">
+    <Grid>
+        <TextBox Name="fam" HorizontalAlignment="Left" Margin="136,54,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="113" Height="27"/>
+        <TextBox Name="name" HorizontalAlignment="Left" Margin="136,112,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="113" Height="27"/>
+        <TextBox Name="otch" HorizontalAlignment="Left" Margin="136,173,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="113" Height="27"/>
+        <TextBox Name="mail" HorizontalAlignment="Left" Margin="136,230,0,0" TextWrapping="Wrap" Text="Почта" VerticalAlignment="Top" Width="113" Height="27"/>
+        <TextBox Name="pass" HorizontalAlignment="Left" Margin="136,291,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="113" Height="27"/>
+        <Button x:Name="regButton" Content="Регистрация" HorizontalAlignment="Left" Margin="156,372,0,0" VerticalAlignment="Top" Height="30" Width="72" Click="regButton_Click"/>
+
+    </Grid>
+</Window>
